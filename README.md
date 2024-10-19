@@ -14,7 +14,7 @@ Note that KubeShare 1.0 is deprecated. Refer to the [KubeShare 1.0 branch](https
 
 
 ## Prerequisite & Limitation
-* A Kubernetes cluster with [garbage collection](https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection/), [DNS enabled](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/) [nvidia-continaer-runtime](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)installed.
+* A Kubernetes cluster with [garbage collection](https://kubernetes.io/docs/concepts/workloads/controllers/garbage-collection/), [DNS enabled](https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/) [nvidia-container-runtime](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)installed.
 * Only support a kubernetes cluster that uses the environment variable `NVIDIA_VISIBLE_DEVICES` to control which GPUs will be made accessible inside the container.
 * You also ensures that the *prometheus* is installed, because we will pull the data from it.
 * It can't compatible with other scheduler to manage gpu resource
