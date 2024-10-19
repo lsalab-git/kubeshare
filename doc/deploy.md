@@ -135,8 +135,8 @@ kubectl apply -f deploy/aggregator.yaml
 kubectl apply -f deploy/collector.yaml
 ```
 
-+ **Make sure the enpoint of kubeshare-aggregator & kubeshare-collector of prometheus is up.**
-+ Query the metric `gpu_capacity` , You will get the GPU specification
++ **Make sure the endpoint of kubeshare-aggregator & kubeshare-collector of prometheus is up.**
++ Query the metric `gpu_capacity`, You will get the GPU specification
 
 ```
 gpu_capacity{endpoint="collector",index="0",instance="xxx.xxx.xxx.xxx:9004",job="kubeshare-collector",memory="34089730048",model="Tesla V100-PCIE-32GB",namespace="kube-system",node="ubuntu",pod="kubeshare-collector-wrrl6",service="kubeshare-collector",uuid="GPU-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"}
