@@ -27,7 +27,7 @@ Note that KubeShare 1.0 is deprecated. Refer to the [KubeShare 1.0 branch](https
 -->
 
 ## Deployment
-1. [Deploy Componments](doc/deploy.md)
+1. [Deploy Components](doc/deploy.md)
 
 ## Workloads
 
